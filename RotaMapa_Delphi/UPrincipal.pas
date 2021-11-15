@@ -148,7 +148,7 @@ begin
   begin
     LocationSensor.Active := True;
     //Add a chave api em Project -> Options -> Version Info -> (Target Android) apiKey
-    DM.KeyMaps := 'AIzaSyDIcwARgoz9Auypf_sGfgeH12AmbuLy_5w';
+    DM.KeyMaps := 'YOUR-KEY-GOOGLE-MAPS';
   end;
 end;
 
