@@ -1,0 +1,28 @@
+inherited fPrincipal_Moto360: TfPrincipal_Moto360
+  ClientHeight = 218
+  ClientWidth = 240
+  DesignerMasterStyle = 0
+  inherited rTitle: TRectangle
+    Margins.Left = 6.000000000000000000
+    Margins.Right = 6.000000000000000000
+    Position.X = 6.000000000000000000
+    Size.Width = 228.000000000000000000
+    Size.Height = 89.000000000000000000
+  end
+  inherited rAlert: TRectangle
+    Position.Y = 168.000000000000000000
+    Size.Width = 240.000000000000000000
+    inherited lblVacinada: TLabel
+      Size.Width = 240.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+    end
+  end
+  inherited rDoses: TRectangle
+    Position.Y = 91.000000000000000000
+    Size.Height = 77.000000000000000000
+  end
+  inherited rQRCode: TRectangle
+    Size.Width = 95.000000000000000000
+    Size.Height = 77.000000000000000000
+  end
+end

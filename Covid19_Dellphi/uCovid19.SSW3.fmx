@@ -1,0 +1,23 @@
+inherited fPrincipal_SSW3: TfPrincipal_SSW3
+  ClientHeight = 183
+  ClientWidth = 183
+  DesignerMasterStyle = 0
+  inherited rTitle: TRectangle
+    Size.Width = 163.000000000000000000
+  end
+  inherited rAlert: TRectangle
+    Position.Y = 133.000000000000000000
+    Size.Width = 183.000000000000000000
+    inherited lblVacinada: TLabel
+      Size.Width = 183.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+    end
+  end
+  inherited rDoses: TRectangle
+    Size.Height = 50.000000000000000000
+  end
+  inherited rQRCode: TRectangle
+    Size.Width = 38.000000000000000000
+    Size.Height = 50.000000000000000000
+  end
+end
