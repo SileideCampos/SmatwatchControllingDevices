@@ -1,0 +1,30 @@
+object F_GMaps: TF_GMaps
+  Left = 0
+  Top = 0
+  ClientHeight = 428
+  ClientWidth = 355
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnShow = FormShow
+  DesignerMasterStyle = 3
+  object MapView1: TMapView
+    Align = Client
+    Size.Width = 355.000000000000000000
+    Size.Height = 428.000000000000000000
+    Size.PlatformDefault = False
+    LayerOptions = [PointsOfInterest, UserLocation]
+  end
+  object LocationSensor1: TLocationSensor
+    ActivityType = Navigation
+    UsageAuthorization = WhenInUse
+    OnLocationChanged = LocationSensor1LocationChanged
+    Left = 48
+    Top = 32
+  end
+  object GestureManager1: TGestureManager
+    Sensitivity = 80.000000000000000000
+    Left = 160
+    Top = 200
+  end
+end

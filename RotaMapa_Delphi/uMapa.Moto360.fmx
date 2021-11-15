@@ -1,0 +1,14 @@
+inherited F_GMaps_Moto360: TF_GMaps_Moto360
+  ClientHeight = 218
+  ClientWidth = 240
+  DesignerMasterStyle = 3
+  inherited MapView1: TMapView
+    Size.Width = 240.000000000000000000
+    Size.Height = 218.000000000000000000
+    LayerOptions = [PointsOfInterest, Buildings, UserLocation, Traffic]
+  end
+  inherited GestureManager1: TGestureManager
+    Left = 136
+    Top = 48
+  end
+end
