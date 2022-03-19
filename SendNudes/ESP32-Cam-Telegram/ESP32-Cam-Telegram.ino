@@ -177,7 +177,6 @@ void setup()
   bot.longPoll = 60;
 
   conexao.begin(localPort);
-  v = 1;
 }
 
 void loop()
